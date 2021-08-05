@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet" type='text/css'>
+        <title>Contact - RateMyCourses</title>
+    </head>
+    <body>
+        <header>
+            <h1 class='name'>RateMyMajors &nbsp;<img src="images/westernLogo.png" alt="Western Logo"></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="search.html">Search a Major</a></li>
+                <li><a href="https://www.westerncalendar.uwo.ca/">Academic Calendar</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <p class='pageTitle'>Contact Form</p>
+        <div class="contactF">        
+            <form>
+                <br>
+                <label for="cName">Name: </label>
+                <br>
+                <input type="text" id='cName' name='cName' required>
+                <br><br>
+                <label for="cEmail">Email: </label>
+                <br>
+                <input type="email" id='cEmail' name='cEmail' required>
+                <br><br>
+                <label for="contactR">Contact Reason: </label>
+                <br>
+                <select id="contactR" name="contactR">
+                    <option value="addType">Add a new major</option>
+                    <option value="bugType">Found a bug</option>
+                    <option value="otherType">Others</option>
+                </select>
+                <br><br>
+                <label for="textbox">Message:</label>
+                <br>
+                <textarea id='textbox' name='textbox'cols='30' rows='10'></textarea>
+                <br><br>
+                <input type="Submit" value="Submit">
+            </form>
+        </div>
+        <footer>
+            <p class="copyright">© 2021 RateMyMajors UWO</p>
+        </footer>
+
+        
+    </body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet" type='text/css'>
+        <title>RateMyMajors</title>
+    </head>
+    <body>
+        <header>
+            <h1 class='name'>RateMyMajors &nbsp;<img src="images/westernLogo.png" alt="Western Logo"></h1>
+            <br>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="search.html">Search a Major</a></li>
+                <li><a href="https://www.westerncalendar.uwo.ca/">Academic Calendar</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper">
+
+            <h3>Computer Science</h3>
+            <h4>Overall Rating: 3.5/5</h4>
+            <a href="#submitComment" style="text-decoration:none;"><button>Rate This Major</button></a>
+            <br>
+            <div class="split left">
+                <h5>Honor Specialization in CS</h5>
+                <h5>Graduated in 2019</h5>
+                <h5>Quality: 5.0</h5>
+                <h5>Difficulty: 3.0</h5>
+                <h4>Decent Program</h4>
+                <p>
+                    It was a great experience since all my module courses taught me all the fundmental knowledge which allows me to branch further on my own.
+                    After graudation, I landed on a high salary job. Also I made a lot of friends and had a blast at Western. 
+                </p>
+            </div>
+            
+            <div class="split right">
+                <h5>Honor Specialization in Bioinformatics</h5>
+                <h5>Graduated in 2021</h5>
+                <h5>Quality: 2.0</h5>
+                <h5>Difficulty: 4.0</h5>
+                <h4>Poor education which doesn't prepare you enough for your job</h4>
+                <p>
+                    The first two years were not bad. However, all decent profs went to waterloo. It is super stressful to balance school work, my own
+                    projects, hackathon, and social life. If you want to work at big companies, I suggest you go to waterloo instead
+                </p>
+            </div>
+        </div>
+        
+        <div id="submitComment"><p class="pageTitle">Leave a comment</p></div>
+        <div id="leaveComment">
+            <form><br>
+                <label for="module">Module: </label>
+                <br>
+                <input type="text" id='module' name='module' required>
+                <br><br>
+                <label for="gYear">Graduation Year: </label>
+                <br>
+                <input type="text" id='gYear' name='gYear' required>
+                <br><br>
+                <div class="split left">
+                    <label for="mQuality">Quality: </label>
+                    <br>
+                    <select id="mQuality" name="mQuality">
+                        <option value="1">1.0</option>
+                        <option value="2">2.0</option>
+                        <option value="3">3.0</option>
+                        <option value="4">4.0</option>
+                        <option value="5">5.0</option>
+                    </select>
+                </div>
+
+                <div class="split right">
+                    <label for="mDifficulty">Difficulty: </label>
+                    <br>
+                    <select id="mDifficulty" name="mDifficulty">
+                        <option value="1">1.0</option>
+                        <option value="2">2.0</option>
+                        <option value="3">3.0</option>
+                        <option value="4">4.0</option>
+                        <option value="5">5.0</option>
+                    </select>
+                </div>
+                <br><br>
+                <label for="title">Title:</label>
+                <br>
+                <input type="text" id='title' name='title' required>
+                <br><br>
+                <label for="cComment">Comment:</label>
+                <br>
+                <textarea id='cComment' name='textbox'cols='30' rows='10'></textarea>
+                <br><br>
+                <input type="Submit" value="Submit">
+            </form>
+        </div>
+
+        <footer>
+            <p class="copyright">© 2021 RateMyMajors UWO</p>
+        </footer>
+        
+    </body>
+
+</html>

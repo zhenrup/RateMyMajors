@@ -1,0 +1,195 @@
+
+header{
+    background-color: #4f2683 ;
+    padding: 20px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+header h1{
+    color: white;
+    padding: 6px 13px;
+    border: 4px solid white;
+    display: inline-block;
+    border-radius: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+}
+
+img{
+    width: 100px;
+    height: auto;
+}
+
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: #807f83 ;
+    padding: 13px;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+    width: 25%;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+label{
+    margin: 0 30px;
+    text-align: left;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.contactF, #leaveComment{
+    margin: 0 300px;
+    background-color: #eae9eb;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+p.pageTitle{
+    margin-top: 60px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+form p{
+    font-family: 'Libre Baskerville', serif;
+}
+
+input[type=text], input[type=email], select, textarea{
+    margin:0 30px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 1px #807f83;
+    font-family: 'Libre Baskerville', serif;
+}
+
+input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 4px 1px #807f83;
+    background-color: #4f2683;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+input[type=submit]:hover,button:hover {
+    text-decoration: underline;
+}
+
+button{
+    display: block;
+    box-shadow: 0 0 4px 1px #807f83;
+    background-color: #4f2683;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+}
+
+footer{
+    width: 100%;
+    background-color: #4f2683;
+    color: white;
+    padding:8px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+p.copyright{
+    font-size: 10px;
+}
+
+.searchS{
+    margin: 86px 300px;
+}
+
+.courseTitle{
+    font-family: 'Libre Baskerville', serif;
+}
+
+div.split{
+    height: 100%;
+    width: 47.5%;
+    float: left;
+    padding-bottom: 18px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+div.wrapper{
+    height: 100%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.left, .right{
+    width:50%;
+    height:100%;
+}
+
+.leaveComment{
+    height: 100%;
+}
+
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+h5{
+    margin-top: 0;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+p.map{
+    text-align: center;
+    margin: 60px 0;
+}
+
+p.description{
+    word-spacing: 4px;
+    line-height: 1.6;
+    margin: 70px;
+}
+
+div.aboutW:after, div.aboutUs:after, div.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet" type='text/css'>
+        <title>Search A Major - RateMyMajor</title>     
+    </head>
+    
+    <body>
+        <header>
+            <h1 class='name'>RateMyMajors &nbsp;<img src="images/westernLogo.png" alt="Western Logo"></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="search.html">Search a Major</a></li>
+                <li><a href="https://www.westerncalendar.uwo.ca/">Academic Calendar</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="searchS">
+            <p class="pageTitle">Search by major: </p>
+            <br>
+            <select id="majorCode" name="majorCode" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                <option value="Phy">Physics</option>
+                <option value="majorModel.html">Computer Science</option>
+                <option value="DS">Data Science</option>
+            </select>
+            <br><br>
+            <p class="pageTitle">Search by department: </p>
+            <br>
+            <select id="depart" name="depart">
+                <option value="AS">Actuarial and Statistical</option>
+                <option value="CS">Computer Science</option>
+                <option value="PA">Physics and Astronomy</option>
+            </select>
+        </div>
+        
+        <footer>
+            <p class="copyright">© 2021 RateMyMajors UWO</p>
+        </footer>
+    </body>
+
+</html>
